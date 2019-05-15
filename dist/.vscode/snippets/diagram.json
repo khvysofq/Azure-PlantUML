@@ -1619,7 +1619,7 @@
     "prefix": "Azure Web App",
     "description": "Add Azure Web App to diagram",
     "body": [
-      "AzureWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "MegviiWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
@@ -1627,7 +1627,7 @@
     "prefix": "Azure Web App with Description",
     "description": "Add Azure Web App with Description to diagram",
     "body": [
-      "AzureWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "MegviiWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   }
